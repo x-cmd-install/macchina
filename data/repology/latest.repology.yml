@@ -1,14 +1,15 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: macchina
+- repo: aosc
+  srcname: app-utils/macchina
   binname: macchina
   visiblename: macchina
   version: 6.4.0
-  origversion: 6.4.0-3
+  origversion: null
   status: newest
-  summary: A system information fetcher, with an (unhealthy) emphasis on performance.
-  licenses:
-    - MIT
+  summary: Basic system information fetcher
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: alpine_edge
   subrepo: testing
   srcname: macchina
@@ -35,18 +36,6 @@
     - ja@sdomi.pl
   licenses:
     - MIT
-- repo: aosc
-  srcname: app-utils/macchina
-  binname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: Basic system information fetcher
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: arch
   subrepo: extra
   srcname: macchina
@@ -70,54 +59,6 @@
     - ilovemikael@aur
   licenses:
     - MIT
-- repo: nix_stable_26_05
-  srcname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: Fast, minimal and customizable system information fetcher
-  maintainers:
-    - owen@owen.cafe
-    - mrjarviscraft+nix@gmail.com
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: Fast, minimal and customizable system information fetcher
-  maintainers:
-    - owen@owen.cafe
-    - mrjarviscraft+nix@gmail.com
-  licenses:
-    - MIT
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: macchina
-  visiblename: macchina
-  version: 6.1.6
-  origversion: 6.1.6-bp155.1.10
-  status: outdated
-  summary: Fast, minimal and customizable system information frontend
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: macchina
-  visiblename: macchina
-  version: 6.1.6
-  origversion: 6.1.6-bp156.2.13
-  status: outdated
-  summary: Fast, minimal and customizable system information frontend
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: gentoo_ovl_guru
   srcname: app-misc/macchina
   visiblename: app-misc/macchina
@@ -152,6 +93,39 @@
   origversion: null
   status: newest
   summary: System information fetcher, with an emphasis on performance and minimalism
+- repo: pkgsrc_2026_2
+  srcname: sysutils/macchina
+  binname: macchina
+  visiblename: sysutils/macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: System information frontend with emphasis on performance
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/macchina
+  binname: macchina
+  visiblename: sysutils/macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: System information frontend with emphasis on performance
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
+- repo: scoop
+  subrepo: main
+  binname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: liguros_stable
   srcname: app-misc/macchina
   visiblename: app-misc/macchina
@@ -212,6 +186,17 @@
   summary: A system information fetcher, with an (unhealthy) emphasis on performance.
   licenses:
     - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: macchina
+  binname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: 6.4.0-3
+  status: newest
+  summary: A system information fetcher, with an (unhealthy) emphasis on performance.
+  licenses:
+    - MIT
 - repo: nix_stable_24_05
   srcname: macchina
   visiblename: macchina
@@ -259,6 +244,54 @@
     - owen@owen.cafe
   licenses:
     - MIT
+- repo: nix_stable_26_05
+  srcname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: Fast, minimal and customizable system information fetcher
+  maintainers:
+    - owen@owen.cafe
+    - mrjarviscraft+nix@gmail.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: Fast, minimal and customizable system information fetcher
+  maintainers:
+    - owen@owen.cafe
+    - mrjarviscraft+nix@gmail.com
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: macchina
+  visiblename: macchina
+  version: 6.1.6
+  origversion: 6.1.6-bp155.1.10
+  status: outdated
+  summary: Fast, minimal and customizable system information frontend
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: macchina
+  visiblename: macchina
+  version: 6.1.6
+  origversion: 6.1.6-bp156.2.13
+  status: outdated
+  summary: Fast, minimal and customizable system information frontend
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: parabola
   subrepo: extra
   srcname: macchina
@@ -282,39 +315,6 @@
     - pin@netbsd.org
   categories:
     - sysutils
-- repo: pkgsrc_2026_2
-  srcname: sysutils/macchina
-  binname: macchina
-  visiblename: sysutils/macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: System information frontend with emphasis on performance
-  maintainers:
-    - pin@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/macchina
-  binname: macchina
-  visiblename: sysutils/macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: System information frontend with emphasis on performance
-  maintainers:
-    - pin@netbsd.org
-  categories:
-    - sysutils
-- repo: scoop
-  subrepo: main
-  binname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: t2
   srcname: macchina
   visiblename: macchina
@@ -347,4 +347,4 @@
   status: newest
   summary: Fast, minimal and customizable system information frontend.
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
