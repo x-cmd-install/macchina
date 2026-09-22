@@ -37,7 +37,7 @@ Total: **2,867** lines of code across **30** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,973 · **Forks**: 63 · **Open issues**: 152 · **Contributors**: 23
+- **Stars**: 1,974 · **Forks**: 63 · **Open issues**: 152 · **Contributors**: 23
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **2,867** lines of code across **30** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-23 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-06-23 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-03-25 | 0 | 0 | 2 | 1 | 2 | 0 |
-| 360d | 2025-09-26 | 0 | 0 | 3 | 5 | 3 | 0 |
-| last720d | 2024-10-01 | 3 | 2 | 6 | 15 | 3 | 28 |
+| 30d | 2026-08-23 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-24 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-06-24 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-03-26 | 0 | 0 | 2 | 1 | 2 | 0 |
+| 360d | 2025-09-27 | 0 | 0 | 3 | 5 | 3 | 0 |
+| last720d | 2024-10-02 | 3 | 2 | 6 | 15 | 3 | 28 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for macchina lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T04:10:41Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T04:06:25Z._
