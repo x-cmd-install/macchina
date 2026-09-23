@@ -4,7 +4,7 @@
 
 A system information frontend with an emphasis on performance.
 
-[![x-cmd/install — macchina Code Quality Monitoring Repo Card](https://repo.x-cmd.io/macchina.svg?lang=zh)](https://x-cmd.com/install/macchina)
+[![x-cmd/install — macchina Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/macchina.svg?lang=zh)](https://x-cmd.com/install/macchina)
 
 ## 安装
 
@@ -37,22 +37,22 @@ x install macchina
 
 ## 流行度
 
-- **Star**: 1,974 · **Fork**: 63 · **开放 issue**: 152 · **贡献者**: 23
+- **Star**: 1,973 · **Fork**: 63 · **开放 issue**: 152 · **贡献者**: 23
 
 ## 累计统计
 
-- **发布数**: 68 · **已合并 PR**: 137 · **开放 PR**: 7 · **已关闭 issue**: 147 · **开放 issue**: 5 · **提交数**: 877
+- **发布数**: 68 · **已合并 PR**: 137 · **开放 PR**: 7 · **已关闭 issue**: 148 · **开放 issue**: 4 · **提交数**: 877
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-06-24 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-03-26 | 0 | 0 | 2 | 1 | 2 | 0 |
-| 360d | 2025-09-27 | 0 | 0 | 3 | 5 | 3 | 0 |
-| last720d | 2024-10-02 | 3 | 2 | 6 | 15 | 3 | 28 |
+| 30d | 2026-08-24 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-06-25 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-03-27 | 0 | 0 | 2 | 2 | 1 | 0 |
+| 360d | 2025-09-28 | 0 | 0 | 3 | 6 | 2 | 0 |
+| last720d | 2024-10-03 | 3 | 2 | 6 | 16 | 2 | 28 |
 
 ## Release 资产
 
@@ -79,4 +79,4 @@ macchina 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T04:06:25Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:03:19Z._
