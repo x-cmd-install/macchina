@@ -42,7 +42,7 @@
   binname: macchina
   visiblename: macchina
   version: 6.4.0
-  origversion: 6.4.0-3
+  origversion: 6.4.0-4
   status: newest
   summary: A system information fetcher, with an (unhealthy) emphasis on performance.
   licenses:
@@ -59,6 +59,30 @@
     - ilovemikael@aur
   licenses:
     - MIT
+- repo: nix_unstable
+  srcname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: Fast, minimal and customizable system information fetcher
+  maintainers:
+    - owen@owen.cafe
+    - mrjarviscraft+nix@gmail.com
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: macchina
+  visiblename: macchina
+  version: 6.1.6
+  origversion: 6.1.6-bp155.1.10
+  status: outdated
+  summary: Fast, minimal and customizable system information frontend
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: gentoo_ovl_guru
   srcname: app-misc/macchina
   visiblename: app-misc/macchina
@@ -112,16 +136,6 @@
     - Unicode-DFS-2016
   categories:
     - app-misc
-- repo: vylen
-  subrepo: community
-  srcname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: 6.4.0-1
-  status: newest
-  summary: Fast, minimal and customizable system information frontend.
-  maintainers:
-    - wonkru-dev@proton.me
 - repo: liguros_develop
   srcname: app-misc/macchina
   visiblename: app-misc/macchina
@@ -141,28 +155,6 @@
     - Unicode-DFS-2016
   categories:
     - app-misc
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: macchina
-  binname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: 6.4.0-3
-  status: newest
-  summary: A system information fetcher, with an (unhealthy) emphasis on performance.
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: macchina
-  binname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: 6.4.0-3
-  status: newest
-  summary: A system information fetcher, with an (unhealthy) emphasis on performance.
-  licenses:
-    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: macchina
@@ -233,30 +225,6 @@
     - mrjarviscraft+nix@gmail.com
   licenses:
     - MIT
-- repo: nix_unstable
-  srcname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: Fast, minimal and customizable system information fetcher
-  maintainers:
-    - owen@owen.cafe
-    - mrjarviscraft+nix@gmail.com
-  licenses:
-    - MIT
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: macchina
-  visiblename: macchina
-  version: 6.1.6
-  origversion: 6.1.6-bp155.1.10
-  status: outdated
-  summary: Fast, minimal and customizable system information frontend
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: macchina
@@ -275,7 +243,7 @@
   binname: macchina
   visiblename: macchina
   version: 6.4.0
-  origversion: 6.4.0-3
+  origversion: 6.4.0-4
   status: newest
   summary: A system information fetcher, with an (unhealthy) emphasis on performance.
   licenses:
@@ -348,3 +316,13 @@
   summary: A system information fetcher, with an emphasis on performance and minimalism.
   maintainers:
     - termux@github
+- repo: vylen
+  subrepo: community
+  srcname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: 6.4.0-1
+  status: newest
+  summary: Fast, minimal and customizable system information frontend.
+  maintainers:
+    - wonkru-dev@proton.me
