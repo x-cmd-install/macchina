@@ -93,6 +93,39 @@
   origversion: null
   status: newest
   summary: System information fetcher, with an emphasis on performance and minimalism
+- repo: pkgsrc_2026_3
+  srcname: sysutils/macchina
+  binname: macchina
+  visiblename: sysutils/macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: System information frontend with emphasis on performance
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/macchina
+  binname: macchina
+  visiblename: sysutils/macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  summary: System information frontend with emphasis on performance
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
+- repo: scoop
+  subrepo: main
+  binname: macchina
+  visiblename: macchina
+  version: 6.4.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: liguros_stable
   srcname: app-misc/macchina
   visiblename: app-misc/macchina
@@ -148,7 +181,7 @@
   binname: macchina
   visiblename: macchina
   version: 6.4.0
-  origversion: 6.4.0-3
+  origversion: 6.4.0-4
   status: newest
   summary: A system information fetcher, with an (unhealthy) emphasis on performance.
   licenses:
@@ -282,39 +315,6 @@
     - pin@netbsd.org
   categories:
     - sysutils
-- repo: pkgsrc_2026_3
-  srcname: sysutils/macchina
-  binname: macchina
-  visiblename: sysutils/macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: System information frontend with emphasis on performance
-  maintainers:
-    - pin@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/macchina
-  binname: macchina
-  visiblename: sysutils/macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  summary: System information frontend with emphasis on performance
-  maintainers:
-    - pin@netbsd.org
-  categories:
-    - sysutils
-- repo: scoop
-  subrepo: main
-  binname: macchina
-  visiblename: macchina
-  version: 6.4.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: t2
   srcname: macchina
   visiblename: macchina
